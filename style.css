@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  font-family: Agustina Regular;
+  font-weight: 700;
+  padding: 0 10px;
+  color: rgb(0, 28, 85);
+  font-size:1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 1rem;
+    background-color: #ebebeb;
+    align-items: center;
+
+}
+
+.links{
+    align-items: end;
+    display: flex;
+    width: 70vw;
+    justify-content: end;
+}
+
+.link{
+    margin: .75rem;
+    font-family:'Roboto', sans-serif;
+    list-style: none;
+    font-size:large;
+    color: rgb(0, 28, 85);
+    padding: 1rem;
+    border-radius: 2px;
+
+}
+
+.link:hover{
+    background-color: rgb(160, 225, 250);
+    cursor: pointer;
+}
